@@ -9,6 +9,26 @@ class Whereisthis < Formula
 
   depends_on "python@3.12"
 
+  resource "textual" do
+    url "https://files.pythonhosted.org/packages/source/t/textual/textual-8.2.4.tar.gz"
+    sha256 "d4e2b2ddd7157191d00b228592b7c739ea080b7d792fd410f23ca75f05ea76c4"
+  end
+
+  resource "rich" do
+    url "https://files.pythonhosted.org/packages/source/r/rich/rich-15.0.0.tar.gz"
+    sha256 "edd07a4824c6b40189fb7ac9bc4c52536e9780fbbfbddf6f1e2502c31b068c36"
+  end
+
+  resource "markdown-it-py" do
+    url "https://files.pythonhosted.org/packages/source/m/markdown-it-py/markdown-it-py-4.0.0.tar.gz"
+    sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  end
+
+  resource "platformdirs" do
+    url "https://files.pythonhosted.org/packages/source/p/platformdirs/platformdirs-4.9.6.tar.gz"
+    sha256 "3bfa75b0ad0db84096ae777218481852c0ebc6c727b3168c1b9e0118e458cf0a"
+  end
+
   def install
     virtualenv_install_with_resources
   end
