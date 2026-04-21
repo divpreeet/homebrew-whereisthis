@@ -3,8 +3,8 @@ class Whereisthis < Formula
 
   desc "Human language based file finder"
   homepage "https://github.com/divpreeet/whereisthis"
-  url "https://github.com/divpreeet/whereisthis/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "47e27145d5b529280e954983ce8f189cbbf7bae8e3d6ae95f7fa6bd02599a92d"
+  url "https://github.com/divpreeet/whereisthis/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "d40f0dcafeb32d5733e9c29245e15102fa8c57f4af1b5e1601f855e6664d41e3"
   license "MIT"
 
   depends_on "python@3.12"
